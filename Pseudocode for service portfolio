@@ -1,1 +1,19 @@
 Start
+Enter product_name
+Enter product_price
+Enter quantity_of_product_sold
+Enter manufacturing_cost
+Value_of_amount_sold = quantity_of_product_sold ** product_price
+Total_returns = manufacturing_cost - Value_of_amount_sold
+if Total_returns < 0:
+print product_name
+print quantity_of_product_sold
+print Total_returns
+print "Transactions not profitable"
+else:
+print product_name
+print quantity_of_product_sold
+print Total_returns
+print "Tranactions are profitable"
+Endif
+End
