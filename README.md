@@ -1,1 +1,2 @@
-# Cosmedics-app
+# Cosmedics-app is divided into three functionalities:
+No.1 - Service portfolio. This fuctionality allows the business to keep track of all sales made to thier distributors. It allows the business to monitor any sales fluctuations or decretions and determine profit or loss. This funcionality also organises data relating to the feedback of profit or loss determined, into printable statements for record keeeping purposes. These records can be kept in the companies database and used to track productivity. The funcionality calculates the total returns a business has made from it's transactions with distributors.
