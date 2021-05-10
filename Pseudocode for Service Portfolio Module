@@ -1,19 +1,24 @@
+# Service Portfolio
+valueOfAmountsold = 0
 Start
 Enter product_name
 Enter product_price
 Enter quantity_of_product_sold
 Enter manufacturing_cost
-Value_of_amount_sold = quantity_of_product_sold ** product_price
-Total_returns = manufacturing_cost - Value_of_amount_sold
-if Total_returns < 0:
+calculate totalReturns
+if totalReturns < 0:
 print product_name
 print quantity_of_product_sold
-print Total_returns
+print totalReturns
 print "Transactions not profitable"
 else:
 print product_name
 print quantity_of_product_sold
-print Total_returns
+print totalReturns
 print "Tranactions are profitable"
 Endif
 End
+valueOfAmountsold(val1, val2)
+{quantity_of_product_sold ** product_price}
+totalReturns(val1, val2)
+{manufacturing_cost - valueOfAmountsold}
