@@ -1,5 +1,5 @@
 # Service Portfolio
-valueOfAmountsold = 0
+totalReturns = 0
 Start
 Enter product_name
 Enter product_price
@@ -18,7 +18,7 @@ print totalReturns
 print "Tranactions are profitable"
 Endif
 End
-valueOfAmountsold(val1, val2)
-{quantity_of_product_sold ** product_price}
-totalReturns(val1, val2)
-{manufacturing_cost - valueOfAmountsold}
+totalAmountsold(val1, val2)
+{valueOfAmountsold = quantity_of_product_sold ** product_price}
+valueOfReturns(val3, val4)
+{totalReturns = manufacturing_cost - valueOfAmountsold}
