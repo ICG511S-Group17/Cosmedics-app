@@ -1,23 +1,17 @@
 # Service Portfolio
 totalReturns = 0
-Start
+START
 Enter product_name
 Enter product_price
 Enter quantity_of_product_sold
 Enter manufacturing_cost
 calculate totalReturns
 if totalReturns < 0:
-print product_name
-print quantity_of_product_sold
-print totalReturns
-print "Transactions not profitable"
+print (product_name, quantity_of_product_sold, totalReturns, "Transactions not profitable")
 else:
-print product_name
-print quantity_of_product_sold
-print totalReturns
-print "Tranactions are profitable"
+print (product_name, quantity_of_product_sold, totalReturns, "Tranactions are profitable")
 Endif
-End
+END
 totalAmountsold(val1, val2)
 {valueOfAmountsold = quantity_of_product_sold ** product_price}
 valueOfReturns(val3, val4)
