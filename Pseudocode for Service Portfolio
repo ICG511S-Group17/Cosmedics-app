@@ -7,7 +7,7 @@ Enter product_name
 Enter product_price
 Enter quantity_of_product_sold
 Enter manufacturing_cost
-calculate totalReturns
+valueOfReturns(val3, val4)
 if totalReturns < 0:
 print (product_name, quantity_of_product_sold, totalReturns, "Transactions not profitable")
 else:
