@@ -1,4 +1,6 @@
 # Service Portfolio
+Variables: product_name
+int: product_price, quantity_of_product_sold, manufacturing_cost, totalReturns
 totalReturns = 0
 START
 Enter product_name
@@ -13,6 +15,8 @@ print (product_name, quantity_of_product_sold, totalReturns, "Tranactions are pr
 Endif
 END
 totalAmountsold(val1, val2)
-{valueOfAmountsold = quantity_of_product_sold ** product_price}
+{valueOfAmountsold = quantity_of_product_sold ** product_price
+Return valueOfAmountsold}
 valueOfReturns(val3, val4)
-{totalReturns = manufacturing_cost - valueOfAmountsold}
+{totalReturns = manufacturing_cost - valueOfAmountsold
+Return totalReturns}
