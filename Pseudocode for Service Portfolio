@@ -15,7 +15,7 @@ print (product_name, quantity_of_product_sold, totalReturns, "Tranactions are pr
 Endif
 END
 totalAmountsold(val1, val2)
-{valueOfAmountsold = quantity_of_product_sold ** product_price
+{valueOfAmountsold = quantity_of_product_sold * product_price
 Return valueOfAmountsold}
 valueOfReturns(val3, val4)
 {totalReturns = manufacturing_cost - valueOfAmountsold
