@@ -11,7 +11,7 @@ else
 print "Invalid entry"
 Endif
 Endif
-End
+END
 printRecords(value1){
 if value1
 then 
