@@ -1,12 +1,21 @@
+Variables: action
+Int: Employee_ID 
 START 
-Enter Employee_First_name
-Enter Emploee_Surname
 Enter Employee_ID
 Enter action
-if action = print records
+if action = "print records"
 then printRecords()
- else if action = update
+ else if action = "update"
       then updateRecords()
+else
+print "Invalid entry"
 Endif
 Endif
 End
+printRecords(value1){
+if value1
+then 
+Return Employee_Records}
+updateRecords(value1){
+if value1
+then allow user to edit employee information in database}
