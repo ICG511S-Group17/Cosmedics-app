@@ -1,0 +1,12 @@
+START 
+Enter Employee_First_name
+Enter Emploee_Surname
+Enter Employee_ID
+Enter action
+if action = print records
+then printRecords()
+ else if action = update
+      then updateRecords()
+Endif
+Endif
+End
