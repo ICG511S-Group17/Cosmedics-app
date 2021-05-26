@@ -14,9 +14,9 @@ Endif
 Endif
 END
 printRecords(value1){
-if value1
+if value1 = "print records"
 then 
 Return Employee_Records}
 updateRecords(value1){
-if value1
-then allow user to edit employee information in database}
+if value1 = "update"
+then grant user administrative access to employee database}
