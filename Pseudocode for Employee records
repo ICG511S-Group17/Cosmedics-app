@@ -1,5 +1,5 @@
 # Employee Records
-Variables: action
+String: action
 Int: Employee_ID 
 START 
 Enter Employee_ID
