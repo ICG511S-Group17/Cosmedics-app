@@ -1,5 +1,5 @@
 # Service Portfolio
-Variables: product_name
+String: product_name
 int: product_price, quantity_of_product_sold, manufacturing_cost, totalReturns
 totalReturns = 0
 START
