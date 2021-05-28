@@ -2,6 +2,7 @@
 String: action
 Int: Employee_ID 
 START 
+Employee_Records = Required records
 Enter Employee_ID
 Enter action
 if action = "print records"
