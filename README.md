@@ -1,6 +1,9 @@
 # Cosmedics-app is divided into three functionalities:
 No.1 - Service portfolio. This fuctionality allows the business to keep track of all sales made to thier distributors. It allows the business to monitor any sales fluctuations or decretions and determine profit or loss. This funcionality also organises data relating to the feedback of profit or loss determined, into printable statements for record keeeping purposes. These records can be kept in the companies database and used to track productivity. The funcionality calculates the total returns a business has made from it's transactions with distributors.
 No.2
+
+
+
 No.3Customer relationship management (CRM) is a tool for managing all of your company's customer and potential customer relationships and interactions. 
 The purpose is simple and clear: to improve trade relationship. A relationship management system (CRM) assists organizations in staying in touch with customers, trading standards, and making wages.
 Customer relationship management software is designed to connect and automate sales, marketing, and customer service operations.
